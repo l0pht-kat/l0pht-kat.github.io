@@ -8,6 +8,11 @@ body {
   color: black;
   font-family: Verdana;
 }
+@font-face {
+	font-family: 'dos';
+	src: url('/Web437_DOS-V_re_PRC16.woff') format('woff');
+}	
+
 a{
   color:green;
 }
