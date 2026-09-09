@@ -3,7 +3,7 @@
    "how to change link color." */
 inset {border-style: inset;}
 @font-face {
-	font-family: 'Web437_DOS-V_rePRC16';
+	font-family: 'Web437_DOS-V_re_PRC16';
 	src: url('Web437_DOS-V_re_PRC16.woff') format('woff');
 }
 body {
@@ -11,7 +11,7 @@ body {
 
 
   color: black;
-  font-family: 'Web437_DOS-V_rePRC16', monospace;
+  font-family: 'Web437_DOS-V_re_PRC16', monospace;
   
   
 }
