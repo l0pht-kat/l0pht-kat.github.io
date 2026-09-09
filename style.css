@@ -4,7 +4,7 @@
 inset {border-style: inset;}
 @font-face {
 	font-family: 'Web437_DOS-V_rePRC16';
-	src: url('/Web437_DOS-V_re_PRC16.woff') format('woff');
+	src: url('Web437_DOS-V_re_PRC16.woff') format('woff');
 }
 body {
   background-color:  blue;
