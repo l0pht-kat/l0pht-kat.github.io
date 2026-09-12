@@ -8,29 +8,31 @@ inset { border-style: inset; }
   src: url('Web437_DOS-V_re_PRC16.woff') format('woff');
 }
 
-/* COMBINED BODY RULES */
+
 body {
-  /* Your Original Styling */
+
   color: #820077;
   font-family: 'Web437_DOS-V_re_PRC16', monospace;
-  border-style: inset; /* Added missing semicolon */
-  border-width: 5px;   /* Added missing semicolon */
+  border-style: inset; 
+  border-width: 6px;   
   
   /* Background and Star Setup */
   margin: 0;
   padding: 0;
   background: radial-gradient(circle at bottom, #0d1b2a 0%, #000814 100%);
   overflow-x: hidden;
-  min-height: 100vh;   /* Changed to min-height so it scales with your content */
-  box-sizing: border-box; /* Keeps your 5px border inside the screen bounds */
+  min-height: 100vh;   /* Changed to min-height so it scales with content */
+  box-sizing: border-box;
 }
-
-/* Your Original Link Styling */
+p{
+border-style:inset;
+border-width: 4px;
+}
 a {
   color: green;
 }
 
-/* Your Original Pixel Text Tuning */
+
 .pixel-text {
   image-rendering: pixelated;
   -webkit-font-smoothing: none;
